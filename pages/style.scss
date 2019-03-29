@@ -1,0 +1,50 @@
+.container {
+    padding: 5px 10px;
+
+    h1 {
+        font-size: 60pt;
+        color: #345980;
+    }
+
+    th {
+        background-color: #345980;
+        color: white;
+    }
+    td {
+        background-color: aliceblue;
+        color: #345980;
+        padding: 5px;
+
+        input {
+            font-size: 14pt;
+            margin: 5px;
+        }
+        textarea {
+            font-size: 14pt;
+            margin: 5px;
+        }
+        button {
+            font-size: 14pt;
+            padding: 1px 10px;
+            margin: 5px;
+        }
+    }
+
+    hr {
+        border-style: none;
+        border-top: solid;
+        border-width: 5px;
+        border-color: #def;
+        margin: 20px 0px 10px 0px;
+    }
+    
+    .list {
+        cursor: pointer;
+
+        li {
+            font-size: 14pt;
+            height: 32px;
+        }
+    }
+}
+
